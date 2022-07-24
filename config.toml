@@ -11,8 +11,8 @@ enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
-theme = "hugo-paper"
-title = "Paper"
+theme = "rotomex"
+title = "Rotomex"
 
 [params]
   author = "Espumas y Materiales Industriales SA de CV"
