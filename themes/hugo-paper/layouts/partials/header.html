@@ -1,0 +1,23 @@
+<header>
+<img src="/i/logo-rotomex.gif" id="logotipo" alt=
+"Tinacos tanques cisternas barreras custom molding" name=
+"logotipo" />
+<h1>
+  ROTOMEX<sup>&reg;</sup>
+</h1>
+<h2>
+{{ .Params.long_title }}
+</h2>
+<p id="cintillo-sup">
+  Tel&eacute;fonos: (55) 5824-1025, (55) 5824-1018 y (55)
+  5824-1414 e-mail: ventas@rotomex.com
+</p>
+<ul id="menu">
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+  <li class='{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}'>
+    <a href="{{ .URL }}">{{ .Name }}</a>
+</li>
+  {{ end }}
+</ul>
+</header>
