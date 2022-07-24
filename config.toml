@@ -5,6 +5,8 @@ languageCode = "es"
 theme = "rotomex"
 title = "Rotomex"
 
+googleAnalytcs = "G-4VEFJ6P66C"
+
 [params]
   author = "Espumas y Materiales Industriales SA de CV"
   description = "Somos una empresa con mas de 20 a&ntilde;os de experiencia en la industria del rotomoldeo."
@@ -16,8 +18,6 @@ title = "Rotomex"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-[menu]
 
 
 [taxonomies]
