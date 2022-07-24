@@ -1,11 +1,11 @@
 baseURL = "https://rotomex.com"
 languageCode = "es"
+googleAnalytics = "G-4VEFJ6P66C"
 
 # ------------------------------
 theme = "rotomex"
 title = "Rotomex"
 
-googleAnalytcs = "G-4VEFJ6P66C"
 
 [params]
   author = "Espumas y Materiales Industriales SA de CV"
