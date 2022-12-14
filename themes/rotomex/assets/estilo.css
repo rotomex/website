@@ -1,95 +1,124 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 100%;
+  font-family: verdana, arial, helvetica, sans-serif;
+  color: #333;
+}
+
+p#cintillo-sup {
+  background: #ccc;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  vertical-align: middle;
+}
+
+img {
+  border: 0px;
+}
+
+div#contenido {
+  width: 100%;
+  height: auto;
+  margin: 0px auto 0px auto;
+  border: 0px;
+  padding: 0px;
+}
+
+img#logotipo {
+  display: block;
+  border: 0px;
+  margin: 0px auto 0px auto;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-weight: bold;
+  color: #c42522;
+  font-size: 3.6em;
+}
+
+h2 {
+  margin: 0px 0px 1em 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+
+sup {
+  font-size: smaller;
+}
+
+
 /* Extra small (phones, 600px and down) */
 @media only screen and (max-width: 768px) {
 
-body {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-size: 100%;
-    font-family: verdana, arial, helvetica, sans-serif;
-    color: #333;
-    }
-    img { border: 0px; }
-    div#contenido {
+  div#contenido {
     width: 100%;
-    height: auto;
-    margin: 0px auto 0px auto;
-    border: 0px;
-    padding: 0px;
-    }
-    img#logotipo {
-    display: block;
-    border: 0px;
-    margin: 0px auto 0px auto;
-		width: 150px;
-    }
-    h1 {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    font-weight: bold;
-    color: #c42522;
-    font-size: 3.5em;
-    }
-    sup {
-    font-size: smaller;
-    }
-    h2 {
-    margin: 0px 0px 1em 0px;
-    padding: 0px;
-    text-align: center;
-    font-size: 125%;
-    }
-    p#cintillo-sup {
-    background: #ccc;
-    text-align: center;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    }/* comandos navegacion */
-    ul#menu {
-    width: 100%; 
+  }
+
+  img#logotipo {
+    width: 150px;
+  }
+
+
+  /* comandos navegacion */
+  ul#menu {
+    width: 100%;
     list-style-type: none;
     margin: 0.5em 0px 0px 0px;
     padding: 0px;
     border: 0px;
-		background: #fff;    
-    }
-    li a {
+    background: #fff;
+  }
+
+  li a {
     display: block;
     color: #333;
-		border: 1px solid #c45522;
+    border: 1px solid #c45522;
     padding: 0.2em 0.6em;
     text-decoration: none;
-		font-size: 110%;
-    }
-    li a:hover {
+    font-size: 110%;
+  }
+
+  li a:hover {
     background-color: #ccc;
-    }
-    .active {
-		color: #fff;
+  }
+
+  .active {
+    color: #fff;
     background: #e19290;
-    }
-    /* fin comandos navegacion */
-		img#imagen-principal, img.imagen-principal {
-		width: 300px;
-		display: block;
-		padding: 1em 0 0 0;
-		border: 0px;
-		margin: 0em auto 1em auto;
-		}
-    p {
+  }
+
+  /* fin comandos navegacion */
+  img#imagen-principal,
+  img.imagen-principal {
+    width: 300px;
+    display: block;
+    padding: 1em 0 0 0;
+    border: 0px;
+    margin: 0em auto 1em auto;
+  }
+
+  p {
     margin: 0px;
     padding: 0px 0.75em;
     border: 0px;
-    }
-    blockquote {
+  }
+
+  blockquote {
     text-align: center;
     color: #c42522;
     font-size: 2em;
     font-style: italic;
     font-weight: bold;
-    }
-    address {
+  }
+
+  address {
     font-style: normal;
     color: #fff;
     background: #c42522;
@@ -97,94 +126,78 @@ body {
     padding: 1em 0px;
     margin: 0px;
     border: 0px;
-    }
-    img#boton-hosting {
+  }
+
+  img#boton-hosting {
     display: block;
     margin: 0.1em auto;
-    padding: 0px;   
-    }
-		div.addthis_inline_share_toolbox {
-		text-align: center;
-		padding: 1.5em 0px;
-		}
-		h3 { margin-left: 0.5em; }
-		img.material {
-		display: block;
-		width: auto;
-		height: auto;
-		border: 0px;
-		padding: 0px;
-		margin: 0.5em auto;
-		}
-		table.datos {
-		border: 0px;
-		margin: 0.5em auto;
-		padding: 0px;
-		}
-		table.datos th, table.datos td {
-		padding: 0.1em;
-		border: 1px solid #333;
-		}
-		caption { font-weight: bold; }
-		table.colores td, table.colores th { 
-		width: 25%;
-		height: 50px;
-		}
+    padding: 0px;
+  }
+
+  div.addthis_inline_share_toolbox {
+    text-align: center;
+    padding: 1.5em 0px;
+  }
+
+  h3 {
+    margin-left: 0.5em;
+  }
+
+  img.material {
+    display: block;
+    width: auto;
+    height: auto;
+    border: 0px;
+    padding: 0px;
+    margin: 0.5em auto;
+  }
+
+  table.datos {
+    border: 0px;
+    margin: 0.5em auto;
+    padding: 0px;
+  }
+
+  table.datos th,
+  table.datos td {
+    padding: 0.1em;
+    border: 1px solid #333;
+  }
+
+  caption {
+    font-weight: bold;
+  }
+
+  table.colores td,
+  table.colores th {
+    width: 25%;
+    height: 50px;
+  }
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 769px) {
-    body {
-    margin: 0px;
-    padding: 0px;
+
+  img {
     border: 0px;
-    font-size: 100%;
-    font-family: verdana, arial, helvetica, sans-serif;
-    color: #333;
-    }
-    img { border: 0px; }
-    div#contenido {
+  }
+
+  div#contenido {
     width: 80%;
-    height: auto;
-    margin: 0px auto 0px auto;
-    border: 0px;
-    padding: 0px;
-    }
-    img#logotipo {
-    display: block;
-    border: 0px;
-    margin: 0px auto 0px auto;
-    }
-    h1 {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    font-weight: bold;
-    color: #c42522;
-    font-size: 4em;
-    }
-    sup {
-    font-size: smaller;
-    }
-    h2 {
-    margin: 0px 0px 1em 0px;
-    padding: 0px;
-    text-align: center;
-    font-size: 125%;
-    }
-    p#cintillo-sup {
-    background: #ccc;
-    text-align: center;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    }/* comandos navegacion */
-    ul#menu {
-    width: 100%; 
+  }
+
+
+
+  /* comandos navegacion */
+  ul#menu {
+    width: 100%;
     list-style-type: none;
     margin: 0px auto 0px auto;
     padding: 0px;
-    border: 0px;    
-    }   
-    ul#menu li {
+    border: 0px;
+  }
+
+  ul#menu li {
     background: #c42522;
     float: left;
     width: 14.28%;
@@ -192,8 +205,9 @@ body {
     margin: 0px;
     border: 0px;
     text-align: center;
-    }
-    ul#menu a {
+  }
+
+  ul#menu a {
     vertical-align: middle;
     text-align: center;
     color: #fff;
@@ -201,33 +215,45 @@ body {
     font-weight: bold;
     text-decoration: none;
     padding: 0px 0.5em 0px 0.5em;
-    }
-    ul#menu li:hover { background: #333; }    
-    ul#menu li.active {
+  }
+
+  ul#menu li:hover {
     background: #333;
-    }
-    ul#menu li.active a { text-decoration: underline; }
-    /* fin comandos navegacion */
-		img#imagen-principal, img.imagen-principal {
-		display: block;
-		padding: 1em 0 0 0;
-		border: 0px;
-		margin: 0em auto 1em auto;
-		}
-    p {
+  }
+
+  ul#menu li.active {
+    background: #333;
+  }
+
+  ul#menu li.active a {
+    text-decoration: underline;
+  }
+
+  /* fin comandos navegacion */
+  img#imagen-principal,
+  img.imagen-principal {
+    display: block;
+    padding: 1em 0 0 0;
+    border: 0px;
+    margin: 0em auto 1em auto;
+  }
+
+  p {
     margin: 0px;
     padding: 0px 0.75em;
     border: 0px;
-    }
-    blockquote {
+  }
+
+  blockquote {
     text-align: center;
     width: 100%;
     color: #c42522;
     font-size: 2em;
     font-style: italic;
     font-weight: bold;
-    }
-    address {
+  }
+
+  address {
     font-style: normal;
     color: #fff;
     background: #c42522;
@@ -235,37 +261,61 @@ body {
     padding: 1em 0px;
     margin: 0px;
     border: 0px;
-    }
-    img#boton-hosting {
+  }
+
+  img#boton-hosting {
     display: block;
     margin: 0.1em auto;
-    padding: 0px;   
-    }
-		div.addthis_inline_share_toolbox {
-		text-align: center;
-		padding: 1.5em 0px;
-		}
-		h3 { margin-left: 0.7em; }
-		img.material {
-		display: block;
-		width: auto;
-		height: auto;
-		border: 0px;
-		padding: 0px;
-		margin: 0.5em auto;
-		}
-		table.datos {
-		border: 0px;
-		margin: 0.5em auto;
-		padding: 0px;
-		}
-		table.datos th, table.datos td {
-		padding: 0.7em;
-		border: 2px solid #333;
-		}
-		caption { font-weight: bold; }
-		table.colores td, table.colores th { 
-		width: 25%;
-		height: 50px;
-		}  
+    padding: 0px;
+  }
+
+  div.addthis_inline_share_toolbox {
+    text-align: center;
+    padding: 1.5em 0px;
+  }
+
+  h3 {
+    margin-left: 0.7em;
+  }
+
+  img.material {
+    display: block;
+    width: auto;
+    height: auto;
+    border: 0px;
+    padding: 0px;
+    margin: 0.5em auto;
+  }
+
+  table.datos {
+    border: 0px;
+    margin: 0.5em auto;
+    padding: 0px;
+  }
+
+  table.datos th,
+  table.datos td {
+    padding: 0.7em;
+    border: 2px solid #333;
+  }
+
+  caption {
+    font-weight: bold;
+  }
+
+  table.colores td,
+  table.colores th {
+    width: 25%;
+    height: 50px;
+  }
+}
+
+.boton-whatsapp {
+  background-color: #43cd66;
+  color: white;
+  border-radius: 10px;
+}
+
+.whatsapp-link {
+  margin-left: 10px;
 }
